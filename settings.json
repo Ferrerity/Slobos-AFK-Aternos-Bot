@@ -85,3 +85,27 @@
     "respond": true
   }
 }
+bot.once('spawn', () => {
+  bot.setControlState('forward', true)
+
+  setInterval(() => {
+    if (!bot.entity) return
+
+    if (bot.entity.isCollidedHorizontally) {
+      console.log("Hit wall, turning...")
+
+      bot.setControlState('forward', false)
+
+      // Turn randomly left or right
+      const yaw = bot.entity.yaw + (Math.random() > 0.5 ? Math.PI / 2 : -Math.PI / 2)
+      bot.look(yaw, 0)
+
+      // Jump to get unstuck
+      bot.setControlState('jump', true)
+      setTimeout(() => bot.setControlState('jump', false), 500)
+
+      // Move forward again after a short delay
+      setTimeout(() => bot.setControlState('forward', true), 1000)
+    }
+  }, 1000)
+})
