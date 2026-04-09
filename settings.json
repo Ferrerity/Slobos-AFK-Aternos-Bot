@@ -38,23 +38,22 @@
     "auto-reconnect": true,
     "auto-reconnect-delay": 10000,
     "max-reconnect-delay": 60000
-  },
   "movement": {
+  "enabled": false,
+  "circle-walk": {
     "enabled": false,
-    "circle-walk": {
-      "enabled": false,
-      "radius": 4,
-      "speed": 3000
-    },
-    "look-around": {
-      "enabled": true,
-      "interval": 5000
-    },
-    "random-jump": {
-      "enabled": false,
-      "interval": 10000
-    }
+    "radius": 0,
+    "speed": 0
   },
+  "look-around": {
+    "enabled": false,
+    "interval": 0
+  },
+  "random-jump": {
+    "enabled": false,
+    "interval": 0
+  }
+}
   "modules": {
     "avoidMobs": false,
     "combat": false,
