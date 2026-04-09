@@ -1,98 +1,15 @@
 {
+  {
   "name": "Manepear",
   "bot-account": {
-    "username": "Manepear",
-    "password": "",
-    "type": "offline"
-  },
-  "server": {
-    "ip": "Ferrerity213.aternos.me",
-    "port": {
-  "name": "Manepear",
-  "bot-account": {
-    "username": "Manepear",
-    "password": "",
-    "type": "offline"
+    "username": "YOUR_EMAIL",
+    "password": "YOUR_PASSWORD",
+    "type": "microsoft"
   },
   "server": {
     "ip": "Ferrerity213.aternos.me",
     "port": 31677,
-    "version": false,
-    "try-creative": false
-  },
-  "position": {
-    "enabled": false,
-    "x": 0,
-    "y": 100,
-    "z": 0
-  },
-  "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": "chalol78"
-    },
-    "anti-afk": {
-      "enabled": true,
-      "sneak": true
-    },
-    "chat-messages": {
-      "enabled": false,
-      "repeat": false,
-      "repeat-delay": 120,
-      "messages": [
-        "I'm a regular player"
-      ]
-    },
-    "chat-log": true,
-    "auto-reconnect": true,
-    "auto-reconnect-delay": 10000,
-    "max-reconnect-delay": 60000
-  },
-  "movement": {
-    "enabled": false,
-    "circle-walk": {
-      "enabled": false,
-      "radius": 0,
-      "speed": 0
-    },
-    "look-around": {
-      "enabled": false,
-      "interval": 0
-    },
-    "random-jump": {
-      "enabled": false,
-      "interval": 0
-    }
-  },
-  "modules": {
-    "avoidMobs": false,
-    "combat": false,
-    "beds": false,
-    "chat": true,
-    "console-commands": true
-  },
-  "combat": {
-    "attack-mobs": false,
-    "auto-eat": false
-  },
-  "beds": {
-    "pick-up-day": false,
-    "place-night": false
-  },
-  "discord": {
-    "enabled": false,
-    "webhookUrl": "",
-    "events": {
-      "connect": true,
-      "disconnect": true,
-      "chat": false
-    }
-  },
-  "chat": {
-    "respond": false
-  }
-},
-    "version": false,
+    "version": "1.21.11",  
     "try-creative": false
   },
   "position": {
