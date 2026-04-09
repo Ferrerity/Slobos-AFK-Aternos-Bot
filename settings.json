@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "Ferrerity213.aternos.me",
+    "ip": "Ferrerity213.aternos.me:31677",
     "port": 31677,
     "version": false,
     "try-creative": false
