@@ -42,9 +42,9 @@
     "max-reconnect-delay": 120000
   },
   "movement": {
-    "enabled": true,
+    "enabled": false,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
@@ -53,20 +53,9 @@
       "interval": 5000
     },
     "random-jump": {
-      "enabled": true,
+      "enabled": false,
       "interval": 10000
-      "unstuck-logic": {
-        "enabled": true,
-        "description": "Detects wall collisions and jumps/turns to get unstuck.",
-        "pseudo-code":setInterval(() => {
-            if (!bot.entity) return;
-            if (bot.entity.isCollidedHorizontally) {
-                bot.setControlState('forward', false);
-                const yaw = bot.entity.yaw + (Math.random() > 0.5 ? Math.PI/2 : -Math.PI/2);
-                bot.look(yaw, bot.entity.pitch);
-                bot.setControlState('jump', true);
-                setTimeout(() => bot.setControlState('jump', false), 500);
-                setTimeout(() => bot.setControlState('forward', true), 1000);
+      
     }
   }, 1000)
 })
