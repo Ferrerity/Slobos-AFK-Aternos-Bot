@@ -57,10 +57,10 @@
       "interval": 10000
       
     }
-  }, 1000)
-})
-    }
-  },
+  }, 1000
+
+    
+  
   "modules": {
     "avoidMobs": true,
     "combat": true,
