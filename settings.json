@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "Ferrerity213.aternos.me",
-    "port":31677,
+    "port": 31677,
     "version": "1.21.11",
     "try-creative": false
   },
@@ -27,7 +27,7 @@
       "sneak": true
     },
     "chat-messages": {
-      "enabled":false,
+      "enabled": false,
       "repeat": true,
       "repeat-delay": 120,
       "messages": [
@@ -38,8 +38,8 @@
     },
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-reconnect-delay": 2000,
-    "max-reconnect-delay": 120000
+    "auto-reconnect-delay": 10000,
+    "max-reconnect-delay": 60000
   },
   "movement": {
     "enabled": false,
@@ -55,12 +55,8 @@
     "random-jump": {
       "enabled": false,
       "interval": 10000
-      
     }
-  }, 1000
-
-    
-  
+  },
   "modules": {
     "avoidMobs": true,
     "combat": true,
@@ -89,5 +85,3 @@
     "respond": true
   }
 }
-
-
