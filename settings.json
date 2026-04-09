@@ -1,13 +1,13 @@
 {
   "name": "Manepear",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "Manepear",
     "password": "",
     "type": "offline"
   },
   "server": {
     "ip": "Ferrerity213.aternos.me",
-    "port": 31677,
+    "port": "31677",
     "version": "1.21.11",
     "try-creative": false
   },
