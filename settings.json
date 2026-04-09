@@ -7,7 +7,7 @@
   },
   "server": {
     "ip": "Ferrerity213.aternos.me",
-    "port": "31677",
+    "port": 31677,
     "version": "1.21.11",
     "try-creative": false
   },
